@@ -1,0 +1,8 @@
+/*
+Reset default css
+Eliminate differences between preview and output results
+C:\Program Files\Microsoft VS Code\resources\app\extensions\markdown-language-features\media\markdown.css
+*/
+html, body {
+    line-height: normal;
+}

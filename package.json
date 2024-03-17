@@ -2,7 +2,7 @@
   "name": "markdown-put-vscode",
   "displayName": "markdown-put-vscode",
   "description": "",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.85.0"
   },
@@ -13,6 +13,9 @@
   "main": "./dist/extension.js",
   "contributes": {
     "markdown.markdownItPlugins": true,
+    "markdown.previewStyles": [
+      "./style.css"
+    ],
     "commands": [
       {
         "command": "markdown-put-vscode.outputImages",
